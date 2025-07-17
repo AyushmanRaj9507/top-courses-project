@@ -45,7 +45,7 @@ const Card = (props) => {
         </div>
         
 
-        <div className='p-4'>
+        <div className="flex flex-wrap justify-center gap-6 mb-8">
             <p className="text-white font-semibold text-lg leading-6">{course.title}</p>
             <p className='mt-2 text-white'>
                     {
