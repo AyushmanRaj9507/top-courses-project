@@ -41,6 +41,8 @@ const Card = (props) => {
                         :(<FcLikePlaceholder fontSize="1.75rem" />)
                     }
                 </button>
+                <button onClick={() => alert("Share feature coming soon!")}>Share</button>
+
             </div>
         </div>
         

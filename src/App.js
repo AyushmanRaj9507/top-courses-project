@@ -13,6 +13,7 @@ const App = () => {
   const [loading, setLoading] = useState(true);
   const [category, setCategory] = useState(filterData[0].title);
 
+
   async function fetchData() {
     setLoading(true);
     try{

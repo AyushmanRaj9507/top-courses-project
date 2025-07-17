@@ -8,6 +8,7 @@ const Spinner = () => {
       <p className="text-bgDark text-lg font-semibold">Please wait while we load the content…</p>
 
     </div>
+    
   )
 }
 
