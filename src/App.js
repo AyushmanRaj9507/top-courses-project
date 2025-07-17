@@ -5,6 +5,10 @@ import Filter from "./components/Filter";
 import { apiUrl, filterData } from "./data";
 import Spinner from "./components/Spinner";
 import { toast } from "react-toastify";
+import About from './components/About';
+
+
+
 
 const App = () => {
   const [courses, setCourses] = useState(null);
@@ -41,6 +45,7 @@ const App = () => {
       </button>
 
       <Navbar likedCoursesCount={0} />
+      <About />
 
       <div className="bg-bgDark2">
         <Filter
